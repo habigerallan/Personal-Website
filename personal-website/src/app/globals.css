@@ -1,0 +1,71 @@
+/* Regular */
+@font-face {
+  font-family: 'IBMPlexSans';
+  src: url('/fonts/IBMPlexSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'IBMPlexSans';
+  src: url('/fonts/IBMPlexSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'IBMPlexSans';
+  src: url('/fonts/IBMPlexSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: 'IBMPlexSans';
+  src: url('/fonts/IBMPlexSans-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Condensed Regular */
+@font-face {
+  font-family: 'IBMPlexSansCondensed';
+  src: url('/fonts/IBMPlexSansCondensed-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Condensed Italic */
+@font-face {
+  font-family: 'IBMPlexSansCondensed';
+  src: url('/fonts/IBMPlexSansCondensed-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Condensed Bold */
+@font-face {
+  font-family: 'IBMPlexSansCondensed';
+  src: url('/fonts/IBMPlexSansCondensed-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Condensed Bold Italic */
+@font-face {
+  font-family: 'IBMPlexSansCondensed';
+  src: url('/fonts/IBMPlexSansCondensed-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+a, p {
+  font-family: 'IBMPlexSans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'IBMPlexSansCondensed', sans-serif;
+}
