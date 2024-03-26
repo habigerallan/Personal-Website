@@ -62,10 +62,14 @@
   font-style: italic;
 }
 
-a, p {
+p {
   font-family: 'IBMPlexSans', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+a, h1, h2, h3, h4, h5, h6 {
   font-family: 'IBMPlexSansCondensed', sans-serif;
+}
+
+body, html {
+  margin: 0;
 }

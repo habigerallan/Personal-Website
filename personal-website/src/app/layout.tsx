@@ -17,9 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <NavigationLayout>
-        {children}
-      </NavigationLayout>
+      <NavigationLayout></NavigationLayout>
+      {children}
     </html>
   );
 }
